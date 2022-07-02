@@ -15,9 +15,10 @@ let browser;
   ]);
   await page.waitForSelector(".LC20lb", {visible: true});
   const searchResults = await page.$$eval(".LC20lb", els => 
-    els.map(e => ({title: e.innerText, link: e.parentNode.href}))
+    els.map(e => ({name: e.innerText, address: e.parentNode.href}))
   );
   console.log(searchResults);
+
 })()
   .catch(err => console.error(err))
   .finally(() => browser?.close())
