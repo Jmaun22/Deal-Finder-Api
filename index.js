@@ -6,6 +6,8 @@ const axios = require('axios')
 const cheerio = require('cheerio')
 
 const app = express();
+import myJson from './books.json';
+
 
 const newspapers = [
     {
