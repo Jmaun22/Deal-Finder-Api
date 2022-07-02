@@ -1,0 +1,24 @@
+{
+  "name": "deal-finder-api",
+  "version": "1.0.0",
+  "description": "A api that finds local deals",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jmaun22/Deal-Finder-Api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jmaun22/Deal-Finder-Api/issues"
+  },
+  "homepage": "https://github.com/Jmaun22/Deal-Finder-Api#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "cheerio": "^1.0.0-rc.12",
+    "express": "^4.18.1"
+  }
+}
